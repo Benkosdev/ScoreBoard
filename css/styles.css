@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+}
+
+@font-face {
+    src: url("/CursedTimerUlil-Aznm.ttf");
+    font-family: radioland;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    align-items: center;
+    border-radius: 10px;
+    background-image: linear-gradient(#020c27bd, #193ba02f), url(/img/backBastek.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px solid black;
+    box-shadow: 4px 4px 5px black;
+}
+
+.home-points {
+    width: 155px;
+    height: 120px;
+    background: black;
+    border-radius: 10px;
+}
+
+.guest-points {
+    width: 155px;
+    height: 120px;
+    background: black;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0px;
+    color: red;
+    font-family: radioland;
+    padding-top: 15px;
+}
+
+.btn {
+    color: #9AABD8;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    margin: 5px auto;
+    font-family: radioland;
+    font-size: 20px;
+}
+
+#bntReset {
+    width: 90px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: #d31c1c;
+    text-shadow: black;
+    font-family: radioland;
+    font-weight: bold;
+    font-size: 18px;
+    outline: 3px solid#9AABD8;
+    border-radius: 8px;
+    margin-top: 300px;
+    padding: 4px;
+    align-items: center;
+}
